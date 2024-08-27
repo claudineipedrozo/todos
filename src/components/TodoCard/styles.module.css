@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #e5e7eb;
+  border-radius: 20px;
+  width: 100%;
+  color: #334155;
+  margin-bottom: 20px;
+}
+
+.taskType {
+  width: 10%;
+}
+
+.taskType img {
+  width: 100%;
+}
+
+.taskInfo {
+  width: 90%;
+  padding: 10px;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.taskDescription {
+  font-family: "bold";
+  font-size: 25px;
+}
+
+.taskDeadline {
+  font-family: "italic";
+  font-size: 18px;
+}

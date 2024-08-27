@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  background-color: #1f2937;
+  color: #fff;
+}
+
+@font-face {
+  font-family: "bold";
+  src: url(./assets/fonts/Cabin-Bold.ttf);
+}
+
+@font-face {
+  font-family: "italic";
+  src: url(./assets/fonts/Cabin-Italic.ttf);
+}
+
+@font-face {
+  font-family: "regular";
+  src: url(./assets/fonts/Cabin-Regular.ttf);
+}

@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "regular";
+  padding: 50px 0;
+  row-gap: 30px;
+}
+
+.container form {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+}
+
+.container label {
+  margin-bottom: 5px;
+}
+
+.container input[type="text"],
+.container input[type="date"],
+.container select {
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  padding: 5px;
+  font-family: "regular";
+  font-size: 100%;
+}
+
+.container input[type="text"],
+.container input[type="date"] {
+  height: 30px;
+}
+
+.container select {
+  height: 50px;
+}
+
+.container input[type="text"]:focus,
+.container input[type="date"]:focus,
+.container select:focus {
+  outline: 2px solid #fff;
+}
+
+.container input[type="submit"] {
+  background-color: #f97316;
+  width: 250px;
+  margin: auto;
+  border: none;
+  padding: 10px 0px;
+  color: white;
+  font-family: "bold";
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.todosArea {
+  width: 60%;
+}
